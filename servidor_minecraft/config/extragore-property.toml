@@ -1,0 +1,199 @@
+# ExtraGore Particle Group Configuration
+# ------------------------------------------------------
+# This file enables the creation of custom blood particle properties for various entities.
+# Begin by uniquely naming each property group to effectively manage different settings.
+
+# Particle Behavior Options:
+# - Bounce: The particle will bounce off surfaces like a solid object.
+# - Stick: The particle will stick to walls and other surfaces.
+# - Magic: Some particles will fall to the ground while the majority will fly up to the sky.
+# - None: The particle won't have any special effects.
+
+# Particle Weight Options:
+# - Heavy: The particle will sink to the bottom when it's underwater.
+# - Light: The particle will float up to the top of the water.
+
+# Particle State Options:
+# - Liquid: The particle will get larger during its lifetime.
+# - Solid: The particle will remain the same size all the time.
+
+# Color Settings:
+# Set an RGB color value to visually distinguish particles for various entities.
+
+# How to Use:
+# 1. Define a group with a name, including behavior, weight, state, color and entity values.
+# 2. Example:
+#    ["Color Group Name"]
+#    behavior = Choose from "Stuck", "Bounce" or "None"
+#    weight = Choose from "Heavy" or "Light"
+#    state = Choose from "Liquid" or "Solid"
+#    color = "R,G,B"
+#    entities = ["entityID1", "entityID2"]
+# 3. You can modify or delete any predefined groups, except for the red group. The red group is non editable and serves only to show you unused entities which are compatible with different color groups.
+# 4. Add your custom color groups under an already predefined group, except for the red one.
+# 5. Ensure each color group has a unique name and is properly structured.
+
+# Note: Incorrectly formatted lines or unrecognized entity IDs will be ignored.
+# ------------------------------------------------------
+
+["Violet Group"]
+behavior = "Magic"
+weight = "Light"
+state = "Liquid"
+color = "128,0,128"
+entities = ["minecraft:enderman", "minecraft:endermite", "minecraft:phantom", "minecraft:shulker", "minecraft:silverfish", "minecraft:warden", "minecraft:ender_dragon"]
+
+["White Group"]
+behavior = "Bounce"
+weight = "Heavy"
+state = "Solid"
+color = "255,255,255"
+entities = ["minecraft:skeleton", "minecraft:ghast", "minecraft:iron_golem", "minecraft:skeleton_horse", "minecraft:snow_golem", "minecraft:stray", "minecraft:vex", "minecraft:wither_skeleton", "minecraft:allay", "minecraft:wither"]
+
+["Green Group"]
+behavior = "Stuck"
+weight = "Light"
+state = "Liquid"
+color = "0,255,0"
+entities = ["minecraft:cave_spider", "minecraft:creeper", "minecraft:slime", "minecraft:spider", "minecraft:witch"]
+
+["Yellow Group"]
+behavior = "Bounce"
+weight = "Heavy"
+state = "Solid"
+color = "255,255,0"
+entities = ["minecraft:blaze", "minecraft:magma_cube", "minecraft:strider"]
+
+["Blue Group"]
+behavior = "None"
+weight = "Light"
+state = "Liquid"
+color = "0,0,255"
+entities = ["minecraft:squid", "minecraft:elder_guardian", "minecraft:guardian", "minecraft:glow_squid"]
+
+# Auto generated red color group - do not edit. Use this as reference for unused entity IDs.
+"255,0,0" = [
+    "minecraft:giant",
+    "cave_dweller:cave_dweller",
+    "alexscaves:brainiac",
+    "minecraft:trader_llama",
+    "minecraft:horse",
+    "zombiekit:uv_lamp_entity",
+    "minecraft:llama",
+    "alexscaves:underzealot",
+    "minecraft:husk",
+    "extinction:infected_riot_gear",
+    "extinction:infected_police",
+    "man:manfromthefog",
+    "minecraft:tadpole",
+    "minecraft:dolphin",
+    "alexscaves:corrodent",
+    "call_of_yucutan:golden_guard",
+    "alexscaves:luxtructosaurus",
+    "alexscaves:magnetron",
+    "minecraft:donkey",
+    "alexscaves:forsaken",
+    "alexscaves:mine_guardian",
+    "alexscaves:caramel_cube",
+    "extinction:runner",
+    "minecraft:piglin_brute",
+    "zombiekit:firecracker_tem_entity",
+    "extinction:traveler",
+    "minecraft:bee",
+    "minecraft:illusioner",
+    "alexscaves:teletor",
+    "man:mftfhang",
+    "minecraft:mooshroom",
+    "minecraft:drowned",
+    "extinction:soldier",
+    "minecraft:axolotl",
+    "alexscaves:gum_worm",
+    "call_of_yucutan:mitnal_monkey",
+    "alexscaves:sweetish_fish",
+    "minecraft:parrot",
+    "call_of_yucutan:kukulkan",
+    "extinction:soldier_clicker",
+    "minecraft:wandering_trader",
+    "call_of_yucutan:undead_warrior",
+    "alexscaves:deep_one_mage",
+    "alexscaves:gingerbread_man",
+    "extinction:patient_zero",
+    "alexscaves:gumbeeper",
+    "minecraft:frog",
+    "zombiekit:heavy_machine_gun",
+    "extinction:patient_zero_i",
+    "extinction:infected_hazmat",
+    "alexscaves:boundroid",
+    "alexscaves:deep_one",
+    "alexscaves:caniac",
+    "minecraft:mule",
+    "minecraft:vindicator",
+    "call_of_yucutan:chaac",
+    "minecraft:evoker",
+    "minecraft:pufferfish",
+    "minecraft:fox",
+    "call_of_yucutan:ahaw",
+    "alexscaves:gammaroach",
+    "minecraft:chicken",
+    "minecraft:zombie",
+    "whispering_spirits:whispering_spirit",
+    "alexscaves:licowitch",
+    "extinction:mercenary",
+    "sanitydim:rotting_stalker",
+    "minecraft:hoglin",
+    "alexscaves:notor",
+    "alexscaves:ferrouslime",
+    "minecraft:polar_bear",
+    "minecraft:zombified_piglin",
+    "minecraft:pig",
+    "minecraft:turtle",
+    "minecraft:sheep",
+    "extinction:infected_bear",
+    "minecraft:goat",
+    "minecraft:cod",
+    "extinction:goon",
+    "zombiekit:drone",
+    "minecraft:ravager",
+    "extinction:hunter",
+    "minecraft:cow",
+    "alexscaves:radgill",
+    "alexscaves:trilocaris",
+    "sanitydim:sneaking_terror",
+    "man:manfromthefogback",
+    "minecraft:salmon",
+    "extinction:boomer",
+    "extinction:parasite",
+    "alexscaves:nucleeper",
+    "alexscaves:hullbreaker",
+    "call_of_yucutan:updater",
+    "extinction:stalker",
+    "minecraft:rabbit",
+    "minecraft:pillager",
+    "minecraft:zoglin",
+    "call_of_yucutan:blowgun_huracan",
+    "extinction:infected_mutated",
+    "minecraft:bat",
+    "extinction:fallen_survivor",
+    "minecraft:piglin",
+    "railways:conductor",
+    "extinction:infected_soldier",
+    "alexscaves:boundroid_winch",
+    "alexscaves:deep_one_knight",
+    "minecraft:sniffer",
+    "extinction:stalker_ii",
+    "call_of_yucutan:ah_puch",
+    "minecraft:zombie_horse",
+    "minecraft:camel",
+    "minecraft:cat",
+    "alexscaves:watcher",
+    "minecraft:tropical_fish",
+    "alexscaves:gloomoth",
+    "alexscaves:vesper",
+    "minecraft:ocelot",
+    "man:managgresive",
+    "alexscaves:lanternfish",
+    "minecraft:wolf",
+    "minecraft:panda",
+    "minecraft:zombie_villager",
+    "extinction:runner_ii"
+]
