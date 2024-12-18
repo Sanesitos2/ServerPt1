@@ -1049,3 +1049,14 @@ java.lang.ArrayIndexOutOfBoundsException: null
 [18Dec2024 01:12:01.379] [Server thread/INFO] [ping-wheel/]: Channel update: Sanesitothenoob -> default
 [18Dec2024 01:19:09.227] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: Sanesitothenoob went up in flames
 [18Dec2024 01:19:42.726] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: El_Angelardo went up in flames
+[18Dec2024 01:21:00.694] [Server thread/WARN] [net.minecraft.server.level.ServerPlayerGameMode/]: Mismatch in destroy block pos: BlockPos{x=242, y=63, z=-157} BlockPos{x=243, y=63, z=-159}
+[18Dec2024 01:21:23.348] [Server thread/WARN] [net.minecraft.server.level.ServerPlayerGameMode/]: Mismatch in destroy block pos: BlockPos{x=254, y=63, z=-151} BlockPos{x=255, y=63, z=-150}
+[18Dec2024 01:23:05.283] [User Authenticator #7/INFO] [net.minecraft.server.network.ServerLoginPacketListenerImpl/]: UUID of player Tortuga0015yt is 97b827e4-b140-4aea-8f10-b6633b0e63ce
+[18Dec2024 01:23:07.289] [Server thread/INFO] [net.minecraft.server.players.PlayerList/]: Tortuga0015yt[/127.152.230.153:55853] logged in with entity id 20871 at (122.76249998807907, 73.0, -125.27140372864073)
+[18Dec2024 01:23:07.304] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: Tortuga0015yt joined the game
+[18Dec2024 01:23:08.788] [Server thread/INFO] [ping-wheel/]: Channel update: Tortuga0015yt -> default
+[18Dec2024 01:25:06.744] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: Tortuga0015yt was slain by Sanesitothenoob
+[18Dec2024 01:27:31.310] [Server thread/WARN] [net.minecraft.server.level.ServerPlayerGameMode/]: Mismatch in destroy block pos: BlockPos{x=214, y=63, z=-129} BlockPos{x=213, y=62, z=-129}
+[18Dec2024 01:27:32.310] [Server thread/WARN] [net.minecraft.server.level.ServerPlayerGameMode/]: Mismatch in destroy block pos: BlockPos{x=213, y=62, z=-132} BlockPos{x=211, y=62, z=-131}
+[18Dec2024 01:27:50.011] [Server thread/WARN] [net.minecraft.server.level.ServerPlayerGameMode/]: Mismatch in destroy block pos: BlockPos{x=217, y=63, z=-132} BlockPos{x=218, y=61, z=-129}
+[18Dec2024 01:29:19.110] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: Tortuga0015yt has reached the goal [Feeling Watched]

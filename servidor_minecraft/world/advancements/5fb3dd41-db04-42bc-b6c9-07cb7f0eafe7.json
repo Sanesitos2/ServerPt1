@@ -1566,6 +1566,12 @@
     },
     "done": true
   },
+  "farmersdelight:recipes/food/cabbage_from_leaves": {
+    "criteria": {
+      "has_cabbage_leaf": "2024-12-18 01:25:14 +0000"
+    },
+    "done": true
+  },
   "minecraft:recipes/building_blocks/clay": {
     "criteria": {
       "has_clay_ball": "2024-12-18 01:02:45 +0000"
@@ -1797,6 +1803,12 @@
   "create:recipes/building_blocks/crafting/kinetics/orange_seat": {
     "criteria": {
       "has_wool": "2024-12-18 00:53:12 +0000"
+    },
+    "done": true
+  },
+  "farmersdelight:recipes/cooking/cabbage_rolls": {
+    "criteria": {
+      "has_any_ingredient": "2024-12-18 01:25:14 +0000"
     },
     "done": true
   },
