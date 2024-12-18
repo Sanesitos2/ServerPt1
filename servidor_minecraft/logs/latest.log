@@ -957,3 +957,7 @@ com.google.gson.JsonSyntaxException: Missing conditions, expected to find a Json
 [18Dec2024 19:32:01.975] [Server thread/INFO] [net.minecraft.server.network.ServerGamePacketListenerImpl/]: Sanesitothenoob lost connection: Timed out
 [18Dec2024 19:32:01.975] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: Sanesitothenoob left the game
 [18Dec2024 19:36:56.569] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: [Not Secure] * Server maten a todos
+[18Dec2024 19:40:44.530] [User Authenticator #2/INFO] [net.minecraft.server.network.ServerLoginPacketListenerImpl/]: UUID of player Sanesitothenoob is e41c3129-ef59-4e76-9b7e-524b5a7588c9
+[18Dec2024 19:40:48.289] [Server thread/INFO] [net.minecraft.server.players.PlayerList/]: Sanesitothenoob[/127.1.151.147:53217] logged in with entity id 396 at (245.7422646866941, 63.0, -152.18655714341227)
+[18Dec2024 19:40:48.316] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: Sanesitothenoob joined the game
+[18Dec2024 19:40:49.807] [Server thread/INFO] [ping-wheel/]: Channel update: Sanesitothenoob -> default
