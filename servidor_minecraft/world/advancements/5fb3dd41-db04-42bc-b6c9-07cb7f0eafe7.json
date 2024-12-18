@@ -1572,6 +1572,12 @@
     },
     "done": true
   },
+  "minecraft:recipes/misc/red_dye_from_poppy": {
+    "criteria": {
+      "has_poppy": "2024-12-18 01:28:59 +0000"
+    },
+    "done": true
+  },
   "minecraft:recipes/building_blocks/clay": {
     "criteria": {
       "has_clay_ball": "2024-12-18 01:02:45 +0000"
@@ -1614,6 +1620,12 @@
     },
     "done": true
   },
+  "farmersdelight:recipes/misc/gold_nugget_from_smelting_knife": {
+    "criteria": {
+      "has_golden_knife": "2024-12-18 01:33:58 +0000"
+    },
+    "done": true
+  },
   "minecraft:recipes/building_blocks/brick_slab": {
     "criteria": {
       "has_bricks": "2024-12-18 01:11:04 +0000"
@@ -1623,6 +1635,18 @@
   "minecraft:recipes/building_blocks/magenta_concrete_powder": {
     "criteria": {
       "has_gravel": "2024-12-18 01:03:04 +0000"
+    },
+    "done": true
+  },
+  "mcwholidays:recipes/cornered_cobweb": {
+    "criteria": {
+      "has_planks": "2024-12-18 01:29:57 +0000"
+    },
+    "done": true
+  },
+  "mcwholidays:recipes/spooky_cobweb": {
+    "criteria": {
+      "has_planks": "2024-12-18 01:29:57 +0000"
     },
     "done": true
   },
@@ -1641,6 +1665,12 @@
   "minecraft:recipes/misc/brick": {
     "criteria": {
       "has_clay_ball": "2024-12-18 01:02:45 +0000"
+    },
+    "done": true
+  },
+  "minecraft:recipes/brewing/cauldron": {
+    "criteria": {
+      "has_water_bucket": "2024-12-18 01:32:27 +0000"
     },
     "done": true
   },
@@ -1698,6 +1728,18 @@
     },
     "done": true
   },
+  "farmersdelight:recipes/food/nether_salad": {
+    "criteria": {
+      "has_bowl": "2024-12-18 01:33:49 +0000"
+    },
+    "done": true
+  },
+  "farmersdelight:main/place_cooking_pot": {
+    "criteria": {
+      "cooking_pot": "2024-12-18 01:33:31 +0000"
+    },
+    "done": true
+  },
   "minecraft:recipes/building_blocks/coarse_dirt": {
     "criteria": {
       "has_gravel": "2024-12-18 01:03:04 +0000"
@@ -1713,6 +1755,12 @@
   "minecraft:recipes/building_blocks/pink_concrete_powder": {
     "criteria": {
       "has_gravel": "2024-12-18 01:03:04 +0000"
+    },
+    "done": true
+  },
+  "farmersdelight:main/place_skillet": {
+    "criteria": {
+      "skillet": "2024-12-18 01:33:18 +0000"
     },
     "done": true
   },
@@ -1755,6 +1803,12 @@
   "create:recipes/building_blocks/crafting/kinetics/gray_seat": {
     "criteria": {
       "has_wool": "2024-12-18 00:53:12 +0000"
+    },
+    "done": true
+  },
+  "minecraft:recipes/misc/bowl": {
+    "criteria": {
+      "has_the_recipe": "2024-12-18 01:33:49 +0000"
     },
     "done": true
   },
@@ -1806,6 +1860,12 @@
     },
     "done": true
   },
+  "mcwholidays:recipes/outlined_cobweb": {
+    "criteria": {
+      "has_planks": "2024-12-18 01:29:57 +0000"
+    },
+    "done": true
+  },
   "farmersdelight:recipes/cooking/cabbage_rolls": {
     "criteria": {
       "has_any_ingredient": "2024-12-18 01:25:14 +0000"
@@ -1854,9 +1914,21 @@
     },
     "done": true
   },
+  "mcwholidays:recipes/chaotic_cobweb": {
+    "criteria": {
+      "has_planks": "2024-12-18 01:29:57 +0000"
+    },
+    "done": true
+  },
   "create:recipes/building_blocks/crafting/kinetics/pink_seat": {
     "criteria": {
       "has_wool": "2024-12-18 00:53:12 +0000"
+    },
+    "done": true
+  },
+  "mcwholidays:recipes/pyramid_cobweb": {
+    "criteria": {
+      "has_planks": "2024-12-18 01:29:57 +0000"
     },
     "done": true
   },
@@ -1866,9 +1938,21 @@
     },
     "done": true
   },
+  "mcwholidays:recipes/half_cobweb": {
+    "criteria": {
+      "has_planks": "2024-12-18 01:29:57 +0000"
+    },
+    "done": true
+  },
   "minecraft:recipes/food/cooked_mutton": {
     "criteria": {
       "has_mutton": "2024-12-18 00:53:12 +0000"
+    },
+    "done": true
+  },
+  "mcwholidays:recipes/triangle_cobweb": {
+    "criteria": {
+      "has_planks": "2024-12-18 01:29:57 +0000"
     },
     "done": true
   },
@@ -1878,9 +1962,27 @@
     },
     "done": true
   },
+  "farmersdelight:recipes/food/mixed_salad": {
+    "criteria": {
+      "has_bowl": "2024-12-18 01:33:49 +0000"
+    },
+    "done": true
+  },
+  "farmersdelight:recipes/misc/gold_nugget_from_blasting_knife": {
+    "criteria": {
+      "has_golden_knife": "2024-12-18 01:33:58 +0000"
+    },
+    "done": true
+  },
   "mcwstairs:recipes/brick": {
     "criteria": {
       "has_planks": "2024-12-18 01:11:04 +0000"
+    },
+    "done": true
+  },
+  "mcwholidays:recipes/hanging_cobweb": {
+    "criteria": {
+      "has_planks": "2024-12-18 01:29:57 +0000"
     },
     "done": true
   },
@@ -1941,6 +2043,12 @@
   "minecraft:recipes/decorations/flower_pot": {
     "criteria": {
       "has_brick": "2024-12-18 01:11:00 +0000"
+    },
+    "done": true
+  },
+  "minecraft:recipes/food/mushroom_stew": {
+    "criteria": {
+      "has_bowl": "2024-12-18 01:33:49 +0000"
     },
     "done": true
   },
