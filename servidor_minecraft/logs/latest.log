@@ -898,3 +898,154 @@ com.google.gson.JsonSyntaxException: Missing conditions, expected to find a Json
 [18Dec2024 00:09:32.444] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: <Sanesitothenoob> zzzzzz
 [18Dec2024 00:09:32.683] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: <Sanesitothenoob> zz
 [18Dec2024 00:09:32.794] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: <Sanesitothenoob> z
+[18Dec2024 00:09:33.031] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: <Sanesitothenoob> z
+[18Dec2024 00:09:33.216] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: <Sanesitothenoob> zz
+[18Dec2024 00:09:33.564] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: <Sanesitothenoob> z
+[18Dec2024 00:09:33.765] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: <Sanesitothenoob> z
+[18Dec2024 00:09:33.885] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: <Sanesitothenoob> z
+[18Dec2024 00:09:33.987] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: <Sanesitothenoob> z
+[18Dec2024 00:09:38.158] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: El_Angelardo has made the advancement [Sweet Dreams]
+[18Dec2024 00:10:15.593] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: Sanesitothenoob was slain by Boomer
+[18Dec2024 00:12:26.793] [Worker-Main-3/ERROR] [lostcities/]: Error generating chunk -6,21: Index 24 out of bounds for length 24
+java.lang.ArrayIndexOutOfBoundsException: Index 24 out of bounds for length 24
+	at mcjty.lostcities.worldgen.ChunkDriver$SectionCache.get(ChunkDriver.java:396) ~[lostcities-1.20-7.3.5.jar%23190!/:1.20-7.3.5]
+	at mcjty.lostcities.worldgen.ChunkDriver.getBlock(ChunkDriver.java:75) ~[lostcities-1.20-7.3.5.jar%23190!/:1.20-7.3.5]
+	at mcjty.lostcities.worldgen.ChunkDriver.getBlockSafe(ChunkDriver.java:71) ~[lostcities-1.20-7.3.5.jar%23190!/:1.20-7.3.5]
+	at mcjty.lostcities.worldgen.ChunkDriver.updateAdjacent(ChunkDriver.java:193) ~[lostcities-1.20-7.3.5.jar%23190!/:1.20-7.3.5]
+	at mcjty.lostcities.worldgen.ChunkDriver.correct(ChunkDriver.java:276) ~[lostcities-1.20-7.3.5.jar%23190!/:1.20-7.3.5]
+	at mcjty.lostcities.worldgen.ChunkDriver.add(ChunkDriver.java:322) ~[lostcities-1.20-7.3.5.jar%23190!/:1.20-7.3.5]
+	at mcjty.lostcities.worldgen.LostCityTerrainFeature.generatePart(LostCityTerrainFeature.java:1727) ~[lostcities-1.20-7.3.5.jar%23190!/:1.20-7.3.5]
+	at mcjty.lostcities.worldgen.gen.Scattered.generateScatteredBuilding(Scattered.java:271) ~[lostcities-1.20-7.3.5.jar%23190!/:1.20-7.3.5]
+	at mcjty.lostcities.worldgen.gen.Scattered.generateScattered(Scattered.java:144) ~[lostcities-1.20-7.3.5.jar%23190!/:1.20-7.3.5]
+	at mcjty.lostcities.worldgen.LostCityTerrainFeature.doNormalChunk(LostCityTerrainFeature.java:473) ~[lostcities-1.20-7.3.5.jar%23190!/:1.20-7.3.5]
+	at mcjty.lostcities.worldgen.LostCityTerrainFeature.generate(LostCityTerrainFeature.java:300) ~[lostcities-1.20-7.3.5.jar%23190!/:1.20-7.3.5]
+	at mcjty.lostcities.worldgen.LostCityFeature.m_142674_(LostCityFeature.java:62) ~[lostcities-1.20-7.3.5.jar%23190!/:1.20-7.3.5]
+	at net.minecraft.world.level.levelgen.feature.Feature.m_225028_(Feature.java:155) ~[server-1.20.1-20230612.114412-srg.jar%23221!/:?]
+	at net.minecraft.world.level.levelgen.feature.ConfiguredFeature.m_224953_(ConfiguredFeature.java:28) ~[server-1.20.1-20230612.114412-srg.jar%23221!/:?]
+	at net.minecraft.world.level.levelgen.placement.PlacedFeature.m_226362_(PlacedFeature.java:54) ~[server-1.20.1-20230612.114412-srg.jar%23221!/:?]
+	at java.util.stream.ForEachOps$ForEachOp$OfRef.accept(ForEachOps.java:184) ~[?:?]
+	at java.util.stream.ForEachOps$ForEachOp$OfRef.accept(ForEachOps.java:184) ~[?:?]
+	at java.util.stream.IntPipeline$1$1.accept(IntPipeline.java:180) ~[?:?]
+	at java.util.stream.Streams$RangeIntSpliterator.forEachRemaining(Streams.java:104) ~[?:?]
+	at java.util.Spliterator$OfInt.forEachRemaining(Spliterator.java:712) ~[?:?]
+	at java.util.stream.AbstractPipeline.copyInto(AbstractPipeline.java:509) ~[?:?]
+	at java.util.stream.AbstractPipeline.wrapAndCopyInto(AbstractPipeline.java:499) ~[?:?]
+	at java.util.stream.ForEachOps$ForEachOp.evaluateSequential(ForEachOps.java:151) ~[?:?]
+	at java.util.stream.ForEachOps$ForEachOp$OfRef.evaluateSequential(ForEachOps.java:174) ~[?:?]
+	at java.util.stream.AbstractPipeline.evaluate(AbstractPipeline.java:234) ~[?:?]
+	at java.util.stream.ReferencePipeline.forEach(ReferencePipeline.java:596) ~[?:?]
+	at java.util.stream.ReferencePipeline$7$1.accept(ReferencePipeline.java:276) ~[?:?]
+	at java.util.stream.Streams$StreamBuilderImpl.forEachRemaining(Streams.java:411) ~[?:?]
+	at java.util.stream.AbstractPipeline.copyInto(AbstractPipeline.java:509) ~[?:?]
+	at java.util.stream.AbstractPipeline.wrapAndCopyInto(AbstractPipeline.java:499) ~[?:?]
+	at java.util.stream.ForEachOps$ForEachOp.evaluateSequential(ForEachOps.java:151) ~[?:?]
+	at java.util.stream.ForEachOps$ForEachOp$OfRef.evaluateSequential(ForEachOps.java:174) ~[?:?]
+	at java.util.stream.AbstractPipeline.evaluate(AbstractPipeline.java:234) ~[?:?]
+	at java.util.stream.ReferencePipeline.forEach(ReferencePipeline.java:596) ~[?:?]
+	at net.minecraft.world.level.levelgen.placement.PlacedFeature.m_226368_(PlacedFeature.java:53) ~[server-1.20.1-20230612.114412-srg.jar%23221!/:?]
+	at net.minecraft.world.level.levelgen.placement.PlacedFeature.m_226377_(PlacedFeature.java:42) ~[server-1.20.1-20230612.114412-srg.jar%23221!/:?]
+	at net.minecraft.world.level.chunk.ChunkGenerator.m_213609_(ChunkGenerator.java:357) ~[server-1.20.1-20230612.114412-srg.jar%23221!/:?]
+	at net.minecraft.world.level.chunk.ChunkStatus.m_279978_(ChunkStatus.java:108) ~[server-1.20.1-20230612.114412-srg.jar%23221!/:?]
+	at net.minecraft.world.level.chunk.ChunkStatus$SimpleGenerationTask.m_214024_(ChunkStatus.java:309) ~[server-1.20.1-20230612.114412-srg.jar%23221!/:?]
+	at net.minecraft.world.level.chunk.ChunkStatus.m_280308_(ChunkStatus.java:252) ~[server-1.20.1-20230612.114412-srg.jar%23221!/:?]
+	at net.minecraft.server.level.ChunkMap.lambda$scheduleChunkGeneration$27(ChunkMap.java:643) ~[server-1.20.1-20230612.114412-srg.jar%23221!/:?]
+	at com.mojang.datafixers.util.Either$Left.map(Either.java:38) ~[datafixerupper-6.0.8.jar%2377!/:?]
+	at net.minecraft.server.level.ChunkMap.lambda$scheduleChunkGeneration$29(ChunkMap.java:634) ~[server-1.20.1-20230612.114412-srg.jar%23221!/:?]
+	at java.util.concurrent.CompletableFuture$UniCompose.tryFire(CompletableFuture.java:1150) ~[?:?]
+	at java.util.concurrent.CompletableFuture$Completion.run(CompletableFuture.java:482) ~[?:?]
+	at net.minecraft.server.level.ChunkTaskPriorityQueueSorter.m_143188_(ChunkTaskPriorityQueueSorter.java:62) ~[server-1.20.1-20230612.114412-srg.jar%23221!/:?]
+	at net.minecraft.util.thread.ProcessorMailbox.m_18759_(ProcessorMailbox.java:91) ~[server-1.20.1-20230612.114412-srg.jar%23221!/:?]
+	at net.minecraft.util.thread.ProcessorMailbox.m_18747_(ProcessorMailbox.java:146) ~[server-1.20.1-20230612.114412-srg.jar%23221!/:?]
+	at net.minecraft.util.thread.ProcessorMailbox.run(ProcessorMailbox.java:102) ~[server-1.20.1-20230612.114412-srg.jar%23221!/:?]
+	at java.util.concurrent.ForkJoinTask$RunnableExecuteAction.exec(ForkJoinTask.java:1423) ~[?:?]
+	at java.util.concurrent.ForkJoinTask.doExec(ForkJoinTask.java:387) ~[?:?]
+	at java.util.concurrent.ForkJoinPool$WorkQueue.topLevelExec(ForkJoinPool.java:1312) ~[?:?]
+	at java.util.concurrent.ForkJoinPool.scan(ForkJoinPool.java:1843) ~[?:?]
+	at java.util.concurrent.ForkJoinPool.runWorker(ForkJoinPool.java:1808) ~[?:?]
+	at java.util.concurrent.ForkJoinWorkerThread.run(ForkJoinWorkerThread.java:188) ~[?:?]
+[18Dec2024 00:12:26.836] [Worker-Main-3/INFO] [lostcities/]: IsCity: false
+[18Dec2024 00:12:26.837] [Worker-Main-3/INFO] [lostcities/]:     Level: 4
+[18Dec2024 00:12:26.838] [Worker-Main-3/INFO] [lostcities/]:     Building: building7
+[18Dec2024 00:12:42.442] [Worker-Main-2/ERROR] [lostcities/]: Error generating chunk 13,24: null
+java.lang.ArrayIndexOutOfBoundsException: null
+[18Dec2024 00:12:42.446] [Worker-Main-2/INFO] [lostcities/]: IsCity: false
+[18Dec2024 00:12:42.446] [Worker-Main-2/INFO] [lostcities/]:     Level: 4
+[18Dec2024 00:12:42.447] [Worker-Main-2/INFO] [lostcities/]:     Building: building6
+[18Dec2024 00:13:39.950] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: [Sanesitothenoob: Teleported Sanesitothenoob to El_Angelardo]
+[18Dec2024 00:14:02.166] [Worker-Main-4/ERROR] [lostcities/]: Error generating chunk -10,26: null
+java.lang.ArrayIndexOutOfBoundsException: null
+[18Dec2024 00:14:02.167] [Worker-Main-4/INFO] [lostcities/]: IsCity: false
+[18Dec2024 00:14:02.168] [Worker-Main-4/INFO] [lostcities/]:     Level: 4
+[18Dec2024 00:14:02.168] [Worker-Main-4/INFO] [lostcities/]:     Building: building6
+[18Dec2024 00:14:12.038] [Server thread/WARN] [net.minecraft.server.network.ServerGamePacketListenerImpl/]: Rejecting UseItemOnPacket from El_Angelardo: Location (43.14343170821667, 162.875, 208.78176617622375) too far away from hit block BlockPos{x=43, y=161, z=208}.
+[18Dec2024 00:14:25.169] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: El_Angelardo has made the advancement [Acquire Hardware]
+[18Dec2024 00:16:24.168] [User Authenticator #3/INFO] [net.minecraft.server.network.ServerLoginPacketListenerImpl/]: UUID of player Tortuga0015yt is 97b827e4-b140-4aea-8f10-b6633b0e63ce
+[18Dec2024 00:16:26.151] [Server thread/INFO] [net.minecraft.server.players.PlayerList/]: Tortuga0015yt[/127.84.108.23:34277] logged in with entity id 4105 at (250.53079187584623, 141.9375, 4.37199607811673)
+[18Dec2024 00:16:26.215] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: Tortuga0015yt joined the game
+[18Dec2024 00:16:26.813] [Server thread/INFO] [ping-wheel/]: Channel update: Tortuga0015yt -> default
+[18Dec2024 00:16:47.037] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: [Sanesitothenoob: Set Tortuga0015yt's game mode to Survival Mode]
+[18Dec2024 00:16:56.698] [Server thread/WARN] [net.minecraft.server.level.ServerPlayerGameMode/]: Mismatch in destroy block pos: BlockPos{x=0, y=0, z=0} BlockPos{x=253, y=144, z=12}
+[18Dec2024 00:17:11.630] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: [Sanesitothenoob: Made Tortuga0015yt a server operator]
+[18Dec2024 00:17:19.814] [Server thread/WARN] [net.minecraft.server.network.ServerGamePacketListenerImpl/]: Rejecting UseItemOnPacket from Sanesitothenoob: Location (14.003897466231138, 162.0, 197.03752952441573) too far away from hit block BlockPos{x=14, y=160, z=197}.
+[18Dec2024 00:17:19.843] [Server thread/WARN] [net.minecraft.server.network.ServerGamePacketListenerImpl/]: Rejecting UseItemOnPacket from Sanesitothenoob: Location (14.003897466231138, 162.0, 197.03752952441573) too far away from hit block BlockPos{x=14, y=160, z=197}.
+[18Dec2024 00:17:20.055] [Server thread/WARN] [net.minecraft.server.network.ServerGamePacketListenerImpl/]: Rejecting UseItemOnPacket from Sanesitothenoob: Location (14.57240879535675, 162.0, 197.56072109937668) too far away from hit block BlockPos{x=14, y=160, z=197}.
+[18Dec2024 00:17:20.055] [Server thread/WARN] [net.minecraft.server.network.ServerGamePacketListenerImpl/]: Rejecting UseItemOnPacket from Sanesitothenoob: Location (14.57240879535675, 162.0, 197.56072109937668) too far away from hit block BlockPos{x=14, y=160, z=197}.
+[18Dec2024 00:17:37.394] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: Sanesitothenoob has made the advancement [Stone Age]
+[18Dec2024 00:17:55.602] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: Tortuga0015yt has made the advancement [Crops of the Wild]
+[18Dec2024 00:17:56.644] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: El_Angelardo has made the advancement [Stone Age]
+[18Dec2024 00:19:24.132] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: Sanesitothenoob fell from a high place
+[18Dec2024 00:19:26.234] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: El_Angelardo has made the advancement [Bonfire Lit]
+[18Dec2024 00:20:47.351] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: Tortuga0015yt has made the advancement [Sweet Dreams]
+[18Dec2024 00:21:07.746] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: <Sanesitothenoob> ZZZZZZZZZZZZZZZZ
+[18Dec2024 00:21:45.828] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: Tortuga0015yt has made the advancement [Monster Hunter]
+[18Dec2024 00:22:13.930] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: <Sanesitothenoob> torttuga duermete o te culeo
+[18Dec2024 00:22:44.377] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: Tortuga0015yt was slain by Tortuga0015yt
+[18Dec2024 00:23:04.567] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: <Sanesitothenoob> zzzzzzzzzzzzzzzzzzzzzzzzz
+[18Dec2024 00:25:40.730] [Server thread/INFO] [net.minecraft.world.entity.npc.Villager/]: Villager Villager['Fisherman'/142, l='ServerLevel[New World]', x=264.41, y=133.00, z=-0.30] died, message: 'Fisherman was slain by Zombie'
+[18Dec2024 00:25:48.719] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: El_Angelardo was slain by Sanesitothenoob
+[18Dec2024 00:26:52.787] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: Sanesitothenoob fell from a high place
+[18Dec2024 00:26:59.296] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: El_Angelardo was slain by Man From The Fog
+[18Dec2024 00:28:34.715] [Worker-Main-2/ERROR] [lostcities/]: Error generating chunk 33,5: null
+java.lang.ArrayIndexOutOfBoundsException: null
+[18Dec2024 00:28:34.717] [Worker-Main-2/INFO] [lostcities/]: IsCity: false
+[18Dec2024 00:28:34.717] [Worker-Main-2/INFO] [lostcities/]:     Level: 4
+[18Dec2024 00:28:34.717] [Worker-Main-2/INFO] [lostcities/]:     Building: building1
+[18Dec2024 00:30:33.301] [Server thread/WARN] [net.minecraft.server.network.ServerGamePacketListenerImpl/]: Rejecting UseItemOnPacket from El_Angelardo: Location (235.71896666288376, 64.875, -143.06194853782654) too far away from hit block BlockPos{x=235, y=63, z=-144}.
+[18Dec2024 00:30:34.047] [Server thread/WARN] [net.minecraft.server.network.ServerGamePacketListenerImpl/]: Rejecting UseItemOnPacket from El_Angelardo: Location (236.73689353466034, 64.27142179012299, -142.84375) too far away from hit block BlockPos{x=235, y=63, z=-144}.
+[18Dec2024 00:30:46.454] [Server thread/WARN] [net.minecraft.server.network.ServerGamePacketListenerImpl/]: Rejecting UseItemOnPacket from El_Angelardo: Location (252.1530680656433, 64.65284597873688, -157.0) too far away from hit block BlockPos{x=252, y=63, z=-158}.
+[18Dec2024 00:35:31.864] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: Sanesitothenoob has made the advancement [Getting an Upgrade]
+[18Dec2024 00:36:32.592] [Server thread/INFO] [net.minecraft.server.network.ServerGamePacketListenerImpl/]: Sanesitothenoob lost connection: Timed out
+[18Dec2024 00:36:32.593] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: Sanesitothenoob left the game
+[18Dec2024 00:37:09.096] [User Authenticator #4/INFO] [net.minecraft.server.network.ServerLoginPacketListenerImpl/]: UUID of player Sanesitothenoob is e41c3129-ef59-4e76-9b7e-524b5a7588c9
+[18Dec2024 00:37:12.312] [Server thread/INFO] [net.minecraft.server.players.PlayerList/]: Sanesitothenoob[/127.1.151.147:56449] logged in with entity id 11090 at (234.30000001192093, 154.0, 62.30000001192093)
+[18Dec2024 00:37:12.332] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: Sanesitothenoob joined the game
+[18Dec2024 00:37:12.694] [Server thread/INFO] [ping-wheel/]: Channel update: Sanesitothenoob -> default
+[18Dec2024 00:37:19.162] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: El_Angelardo has made the advancement [Hunt and Gather]
+[18Dec2024 00:38:45.188] [Server thread/INFO] [net.minecraft.server.network.ServerGamePacketListenerImpl/]: Tortuga0015yt lost connection: Disconnected
+[18Dec2024 00:38:45.188] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: Tortuga0015yt left the game
+[18Dec2024 00:44:45.842] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: El_Angelardo has made the advancement [Getting an Upgrade]
+[18Dec2024 00:48:47.089] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: Sanesitothenoob has made the advancement [Acquire Hardware]
+[18Dec2024 00:49:00.102] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: Sanesitothenoob has made the advancement [Isn't It Iron Pick]
+[18Dec2024 00:49:11.787] [Server thread/INFO] [net.minecraft.server.network.ServerGamePacketListenerImpl/]: El_Angelardo lost connection: Disconnected
+[18Dec2024 00:49:11.788] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: El_Angelardo left the game
+[18Dec2024 00:52:18.675] [User Authenticator #5/INFO] [net.minecraft.server.network.ServerLoginPacketListenerImpl/]: UUID of player El_Angelardo is 5fb3dd41-db04-42bc-b6c9-07cb7f0eafe7
+[18Dec2024 00:52:33.049] [Server thread/INFO] [net.minecraft.server.players.PlayerList/]: El_Angelardo[/127.141.196.105:48655] logged in with entity id 13926 at (274.69999998807907, 134.0, 2.047213348756443)
+[18Dec2024 00:52:33.068] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: El_Angelardo joined the game
+[18Dec2024 00:52:33.794] [Server thread/INFO] [ping-wheel/]: Channel update: El_Angelardo -> default
+[18Dec2024 01:04:20.689] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: <Sanesitothenoob> 177 52 -9
+[18Dec2024 01:06:16.286] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: <Sanesitothenoob> SE ME APAGO EL CEL Xd
+[18Dec2024 01:06:23.686] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: <El_Angelardo> XD
+[18Dec2024 01:06:46.529] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: <Sanesitothenoob> Todavia ocupas graba?
+[18Dec2024 01:06:59.604] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: <El_Angelardo> eh?}
+[18Dec2024 01:07:06.554] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: <Sanesitothenoob> pos si la grava
+[18Dec2024 01:07:12.162] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: <El_Angelardo> a si
+[18Dec2024 01:07:12.195] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: <Sanesitothenoob> la gravel
+[18Dec2024 01:10:38.931] [Server thread/WARN] [net.minecraft.server.network.ServerGamePacketListenerImpl/]: Sanesitothenoob was kicked for floating too long!
+[18Dec2024 01:10:38.989] [Server thread/INFO] [net.minecraft.server.network.ServerGamePacketListenerImpl/]: Sanesitothenoob lost connection: Flying is not enabled on this server
+[18Dec2024 01:10:38.989] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: Sanesitothenoob left the game
+[18Dec2024 01:11:58.867] [User Authenticator #6/INFO] [net.minecraft.server.network.ServerLoginPacketListenerImpl/]: UUID of player Sanesitothenoob is e41c3129-ef59-4e76-9b7e-524b5a7588c9
+[18Dec2024 01:12:00.893] [Server thread/INFO] [net.minecraft.server.players.PlayerList/]: Sanesitothenoob[/127.1.151.147:40553] logged in with entity id 18358 at (233.7451097092008, 143.00133597911216, 12.28754680903518)
+[18Dec2024 01:12:00.921] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: Sanesitothenoob joined the game
+[18Dec2024 01:12:01.379] [Server thread/INFO] [ping-wheel/]: Channel update: Sanesitothenoob -> default
+[18Dec2024 01:19:09.227] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: Sanesitothenoob went up in flames
+[18Dec2024 01:19:42.726] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: El_Angelardo went up in flames
