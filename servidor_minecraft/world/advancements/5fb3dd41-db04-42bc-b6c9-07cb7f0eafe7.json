@@ -1381,6 +1381,7 @@
   },
   "farmersdelight:main/plant_all_crops": {
     "criteria": {
+      "rice": "2024-12-18 01:43:08 +0000",
       "potato": "2024-12-18 00:33:51 +0000",
       "carrot": "2024-12-18 00:33:57 +0000"
     },
@@ -1506,6 +1507,12 @@
     },
     "done": true
   },
+  "minecraft:recipes/decorations/light_gray_glazed_terracotta": {
+    "criteria": {
+      "has_light_gray_terracotta": "2024-12-18 01:36:33 +0000"
+    },
+    "done": true
+  },
   "minecraft:recipes/building_blocks/red_concrete_powder": {
     "criteria": {
       "has_gravel": "2024-12-18 01:03:04 +0000"
@@ -1527,6 +1534,12 @@
   "mcwwindows:recipes/curtains": {
     "criteria": {
       "has_wood": "2024-12-18 00:53:12 +0000"
+    },
+    "done": true
+  },
+  "minecraft:recipes/misc/gold_nugget_from_blasting": {
+    "criteria": {
+      "has_golden_axe": "2024-12-18 01:38:35 +0000"
     },
     "done": true
   },
@@ -1602,9 +1615,21 @@
     },
     "done": true
   },
+  "farmersdelight:main/eat_comfort_food": {
+    "criteria": {
+      "comfort": "2024-12-18 01:45:17 +0000"
+    },
+    "done": true
+  },
   "minecraft:recipes/building_blocks/lime_concrete_powder": {
     "criteria": {
       "has_gravel": "2024-12-18 01:03:04 +0000"
+    },
+    "done": true
+  },
+  "minecraft:recipes/misc/flower_banner_pattern": {
+    "criteria": {
+      "has_oxeye_daisy": "2024-12-18 01:41:58 +0000"
     },
     "done": true
   },
@@ -1671,6 +1696,12 @@
   "minecraft:recipes/brewing/cauldron": {
     "criteria": {
       "has_water_bucket": "2024-12-18 01:32:27 +0000"
+    },
+    "done": true
+  },
+  "minecraft:recipes/misc/blue_dye_from_cornflower": {
+    "criteria": {
+      "has_cornflower": "2024-12-18 01:41:58 +0000"
     },
     "done": true
   },
@@ -1776,6 +1807,12 @@
     },
     "done": true
   },
+  "minecraft:recipes/misc/gold_nugget_from_smelting": {
+    "criteria": {
+      "has_golden_axe": "2024-12-18 01:38:35 +0000"
+    },
+    "done": true
+  },
   "minecraft:recipes/food/cooked_chicken": {
     "criteria": {
       "has_chicken": "2024-12-18 01:05:35 +0000"
@@ -1791,6 +1828,12 @@
   "minecraft:recipes/building_blocks/brown_concrete_powder": {
     "criteria": {
       "has_gravel": "2024-12-18 01:03:04 +0000"
+    },
+    "done": true
+  },
+  "farmersdelight:main/plant_rice": {
+    "criteria": {
+      "plant_rice": "2024-12-18 01:43:08 +0000"
     },
     "done": true
   },
@@ -1884,6 +1927,12 @@
     },
     "done": true
   },
+  "minecraft:recipes/misc/yellow_dye_from_dandelion": {
+    "criteria": {
+      "has_dandelion": "2024-12-18 01:41:59 +0000"
+    },
+    "done": true
+  },
   "create:recipes/building_blocks/crafting/kinetics/cyan_seat": {
     "criteria": {
       "has_wool": "2024-12-18 00:53:12 +0000"
@@ -1968,6 +2017,12 @@
     },
     "done": true
   },
+  "farmersdelight:main/master_chef": {
+    "criteria": {
+      "fried_rice": "2024-12-18 01:45:17 +0000"
+    },
+    "done": false
+  },
   "farmersdelight:recipes/misc/gold_nugget_from_blasting_knife": {
     "criteria": {
       "has_golden_knife": "2024-12-18 01:33:58 +0000"
@@ -2043,6 +2098,12 @@
   "minecraft:recipes/decorations/flower_pot": {
     "criteria": {
       "has_brick": "2024-12-18 01:11:00 +0000"
+    },
+    "done": true
+  },
+  "minecraft:recipes/misc/light_gray_dye_from_oxeye_daisy": {
+    "criteria": {
+      "has_oxeye_daisy": "2024-12-18 01:41:58 +0000"
     },
     "done": true
   },
